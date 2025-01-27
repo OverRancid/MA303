@@ -1,2 +1,30 @@
-# MA303
-Optimization Methods 🐦‍🔥
+# MA303 - Optimization Methods 🐦‍🔥
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+
+# Linear Programming Problem
+
+- ## Graphical Method
+  	<img src="https://upload.wikimedia.org/wikipedia/commons/0/0f/Playboi_Carti%2C_Clout_Festival_2024_05_%28cropped%29.jpg" alt="Playboi Carti - photo from Wikipedia" width="auto" height="200">
+	
+ 	I'll write the code for this when this guy drops album.
+ 
+-  ## Algebraic Method
+   Usage: $\space$ `x = algebraic(A, b, cT)`
+   Assumptions:
+  	- $\mathbf{A}$ is a $m\times n$ matrix with rank $m$.
+  		- $1 \leq m \leq n \leq 8$.
+  	- There exists an unbounded solution for linear program.
+
+    
+   	Solves the linear program
+    
+  $$\text{maximize } z = \mathbf{c^{T}} \cdot \mathbf{x}$$
+   
+  $$\text{subject to } \begin{cases}
+		\mathbf{A} \cdot \mathbf{x} = \mathbf{b} \\
+        \mathbf{x} \geq 0
+    \end{cases}$$
+
+- ## Simplex Method
+  Coming Up fr fr
+    
