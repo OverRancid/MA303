@@ -16,7 +16,7 @@
   	- There exists an unbounded solution for linear program.
 
     
-   	Solves the linear program (return $\mathbf{x}$ for which $z$ is maximal) 
+   	Solves the linear program (returns $\mathbf{x}$ for which $z$ is maximal) 
     
   $$\text{maximize } z = \mathbf{c^{T}} \cdot \mathbf{x}$$
    
