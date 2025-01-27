@@ -29,6 +29,7 @@ function x = algebraic(A, b, cT)
             end
 
             if possible == 1
+                z = argval
                 x = xt;
             end
         end
