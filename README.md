@@ -25,7 +25,7 @@
         \mathbf{x} \geq 0
     \end{cases}$$
 
-- ## Simplex Method
+- ## Simplex Method (with big M to handle artificial variables)
 	Usage: $\space$ `x = simplex (A_leq, A_eq, A_geq, b_leq, b_eq, b_geq, cT)`
 
 	Solves the linear program (returns $\mathbf{x}$ for which $z$ is maximal) 
