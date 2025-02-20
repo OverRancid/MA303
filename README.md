@@ -39,3 +39,17 @@ $$\text{subject to } \begin{cases}
         \mathbf{x} \geq 0
     \end{cases}$$
     
+- ## Simplex Method (with Two-Phase to handle artificial variables)
+	Usage: $\space$ `x = two_phase (A_leq, A_eq, A_geq, b_leq, b_eq, b_geq, cT)`
+
+	Solves the linear program (returns $\mathbf{x}$ for which $z$ is maximal) 
+      
+$$\text{maximize } z = \mathbf{c^{T}} \cdot \mathbf{x}$$
+   
+$$\text{subject to } \begin{cases}
+		\mathbf{A_{leq}} \cdot \mathbf{x} \leq \mathbf{b_{leq}} \\
+		\mathbf{A_{eq}} \cdot \mathbf{x} = \mathbf{b_{eq}} \\
+		\mathbf{A_{geq}} \cdot \mathbf{x} \geq \mathbf{b_{geq}} \\
+        \mathbf{x} \geq 0
+    \end{cases}$$
+    
