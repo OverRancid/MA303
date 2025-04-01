@@ -54,4 +54,20 @@ $$\text{subject to } \begin{cases}
 		\mathbf{A_{geq}} \cdot \mathbf{x} \geq \mathbf{b_{geq}} \\
         \mathbf{x} \geq 0
     \end{cases}$$
+
+- ## Dual Simplex Method
+  	Usage: $\space$ `x = dual_simplex (A_leq, A_eq, A_geq, b_leq, b_eq, b_geq, cT)`
+
+# Transportation Problem
+
+- ## Standardize
+	Usage: $\space$ `[a, b, c] = standardize(a, b, c)`
+
+	Returns vectors $a,\space b$ and corresponding cost matrix $c$ such that $∥a∥_1 =\space ∥b∥_1$.
+
+- ## Initial Basic Feasible Generation
+  	All the methods in this section return a matrix $x$, corresponding to an initial basic feasible solution to the transportation problem defined by $(a, b, c)$.
+
+	- ### North West Corner Rule
+	   	Usage: $\space$ `x = NW_corner_ibfs(a, b, c)`
     
