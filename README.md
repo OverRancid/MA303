@@ -4,9 +4,11 @@
 # Linear Programming Problem
 
 - ## Graphical Method
-  	<img src="https://upload.wikimedia.org/wikipedia/commons/0/0f/Playboi_Carti%2C_Clout_Festival_2024_05_%28cropped%29.jpg" alt="Playboi Carti - photo from Wikipedia" width="auto" height="200">
+  	<img src="https://i1.sndcdn.com/artworks-9GikVCp5nwHPyGzb-TCjK7w-t500x500.jpg" alt="Playboi Carti" width="auto" height="200">
 	
- 	I'll write the code for this when this guy drops album.
+ 	~~I'll write the code for this when this guy drops album.~~
+	Aight ngl I didn't expect him to drop. Code coming soon ig.
+	I AM MUSIC MF!
  
 -  ## Algebraic Method
    Usage: $\space$ `x = algebraic(A, b, cT)`
