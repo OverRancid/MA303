@@ -66,8 +66,18 @@ $$\text{subject to } \begin{cases}
 	Returns vectors $a,\space b$ and corresponding cost matrix $c$ such that $∥a∥_1 =\space ∥b∥_1$.
 
 - ## Initial Basic Feasible Generation
-  	All the methods in this section return a matrix $x$, corresponding to an initial basic feasible solution to the transportation problem defined by $(a, b, c)$.
+  	All the methods in this section returns matrices $x$ and $basic\textendash cell$, corresponding to an initial basic feasible solution to the transportation problem defined by $(a, b, c)$.
 
-	- ### North West Corner Rule
-	   	Usage: $\space$ `x = NW_corner_ibfs(a, b, c)`
+$$basic\textendash cell(i, j) = \begin{cases} 
+				1 \text{; if } x(i, j) \text{ is a basic cell.} \\
+				0 \text{; otherwise} 
+    			\end{cases}$$
+
+- ### North West Corner Rule
+	 Usage: $\space$ `[x, basic_cell] = NW_corner_ibfs(a, b, c)`
+- ### Vogel Approximation Method
+  	Usage: coming soon
+- ## Optimal Solution Generation (UV Method/ MODI Method)
+  	Usage: $\space$ `X = uv_method_transportation(C, X, basic_cell)`
+  
     
