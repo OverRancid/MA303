@@ -80,4 +80,5 @@ $$basic\textendash cell(i, j) = \begin{cases}
 - ## Optimal Solution Generation (UV Method/ MODI Method)
   	Usage: $\space$ `X = uv_method_transportation(C, X, basic_cell)`
   
-    
+# Assignment Problem
+   Usage: $\space$ `x = assignment(c)`
